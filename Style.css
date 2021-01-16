@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 150px;
+}
+
+.nav_bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_bar li {
+  float: right;
+}
+
+.nav_bar li a {
+  display:block;
+  text-align: center;
+  padding: 14px 10px;
+  font-size: 13px;
+  text-decoration: none;
+  color:#000000b6;
+}
+
+#pic1{
+  width: 20px;
+  height: 20px;
+}
+#pic2{
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+	width: 500px;
+  margin: 0 auto;
+  
+}
+
+.search-bar{
+  display: block;
+  width: 100%;
+  height: 45px;
+  border-radius: 25px;
+  padding: 15px; /*prestavi search na pravo mesto*/
+  border: 1px solid rgb(196, 196,196);
+  outline: none; /*izbirše privzeto obrobo inputa*/ 
+}
+
+.search-bar:hover {
+	box-shadow: 1px 1px 5px #8888889f;
+}
+
+
+.logo{
+  display: block; /*for margin to work it has to take the whole width*/
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.search-button{
+  margin: 30px 5px;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #000000b6;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-button:hover {
+	box-shadow: 1px 1px 3px #8888889f;
+	border: solid 1px #8888889f;
+	color: black;
+}
+
+.footer{
+  border-top: solid 1px #8888883f;
+  width: 100%;
+  background-color: #eeeeee;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+
+.foot-items{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.foot-items li{
+  float: left;
+}
+
+.foot-items li a {
+  display: block;
+  text-align: center;
+  padding: 14px 10px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #000000b6;
+}
+
+
+
+.under_text1{
+  display: block;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.mag{
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 25px;
+}
